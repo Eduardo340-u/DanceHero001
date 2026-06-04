@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa37070c56252e249a9ede81d9a46847, type: 3}
   m_Name: MICO
   m_EditorClassIdentifier: Assembly-CSharp::SongData
-  animationName: 
+  animationName: Silly
   songName: MICO
   noteChart: {fileID: 4900000, guid: ae09d2fcf49d7b644a79c79aa9a000cf, type: 3}
-  speed: 0
+  speed: 300
