@@ -8,9 +8,7 @@ public class Timer : MonoBehaviour
    [SerializeField]
    private Text timerText;
    [SerializeField]
-   private UnityEvent onSecondPassed;
-   [SerializeField]
-   private UnityEvent OnsecondPassed;
+   private UnityEvent OnSecondPassed;
    [SerializeField]
    private UnityEvent OnTimerEnd;
    [SerializeField]
@@ -36,7 +34,7 @@ public class Timer : MonoBehaviour
         {
             timerText.text = remainingTime.ToString("F0");
             textAnimator.Play(timerAnimationName,0,0f);
-            onSecondPassed.Invoke();
+            OnSecondPassed.Invoke();
             yield return new WaitForSeconds(1f);
             remainingTime--;
         }

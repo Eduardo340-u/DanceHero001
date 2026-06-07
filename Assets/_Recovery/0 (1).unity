@@ -2225,18 +2225,6 @@ MonoBehaviour:
           m_StringArgument: Fail
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941797846}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fail
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!50 &1028018136
 Rigidbody2D:
   serializedVersion: 5
@@ -2597,18 +2585,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 941797846}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Fail
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 941797846}
@@ -4225,7 +4201,6 @@ GameObject:
   - component: {fileID: 1742413930}
   - component: {fileID: 1742413929}
   - component: {fileID: 1742413928}
-  - component: {fileID: 1742413931}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -4245,7 +4220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886328de6a5c14cbb85854fdf1a5085b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: VuforiaScripts::DefaultObserverEventHandler
-  StatusFilter: 0
+  StatusFilter: 1
   UsePoseSmoothing: 0
   AnimationCurve:
     serializedVersion: 2
@@ -4397,13 +4372,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 941797846}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: StopMusic
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: WinScreen, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4435,7 +4410,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1742413931}
+  mPreview: {fileID: 0}
 --- !u!4 &1742413930
 Transform:
   m_ObjectHideFlags: 0
@@ -4452,25 +4427,6 @@ Transform:
   - {fileID: 606140983}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1742413931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742413926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 1742413929}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: card2
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 1742413929}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &1845352611
 GameObject:
   m_ObjectHideFlags: 0
@@ -4620,7 +4576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lane
   notesPivot: {fileID: 1349439330}
-  notePrefab: {fileID: 4429851159394848450, guid: 814a02e698516b140a13e5c3b5c3cd37, type: 3}
+  notePrefab: {fileID: 6478686263705083959, guid: 4e92fdb0776431148b53cc4a33104242, type: 3}
 --- !u!1 &1950206512
 GameObject:
   m_ObjectHideFlags: 0
