@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   animationName: Samba
   songName: STBV
-  noteChart: {fileID: 4900000, guid: ae09d2fcf49d7b644a79c79aa9a000cf, type: 3}
+  noteChart: {fileID: 4900000, guid: ad37c3d7f85c92e4db3954ae63557e5e, type: 3}
   speed: 300

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SongData
   animationName: Silly
   songName: MICO
-  noteChart: {fileID: 4900000, guid: ae09d2fcf49d7b644a79c79aa9a000cf, type: 3}
+  noteChart: {fileID: 4900000, guid: dcc351a27b77d4a418b7937c1bf97f6c, type: 3}
   speed: 300
